@@ -1,4 +1,9 @@
-#hero {
-    background: url("../img/hero-bg.jpg") top right;
-    background-size: cover;
+
+
+header{
+    background-image: url(../img/headder.jpg);
+} 
+
+.about-me-long{
+    width: 300px;
 }
