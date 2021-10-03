@@ -7,3 +7,6 @@ header{
     height: 700px;
 } 
 
+#about img{
+    max-width: 100%;
+}
