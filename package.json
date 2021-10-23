@@ -1,7 +1,6 @@
 {
   "name": "myPortfolio",
   "version": "1.0.0",
-  "description": "",
   "main": "index.js",
   "scripts": {
     "tw:build": "tailwindcss build -i ./src/css/tailwind.css -o ./public/css/tailwind.css"
@@ -10,12 +9,22 @@
   "author": "",
   "license": "ISC",
   "devDependencies": {
-    "autoprefixer": "^10.3.4",
+    "autoprefixer": "^10.3.7",
     "postcss": "^8.3.6",
     "tailwindcss": "^2.2.15"
   },
   "dependencies": {
     "@tailwindcss/typography": "^0.4.1",
-    "normalize.css": "^8.0.1"
-  }
+    "normalize.css": "^8.0.1",
+    "postcss-cli": "^9.0.1"
+  },
+  "repository": {
+    "type": "git",
+    "url": "git+https://github.com/music-tko/myPortfolio.git"
+  },
+  "bugs": {
+    "url": "https://github.com/music-tko/myPortfolio/issues"
+  },
+  "homepage": "https://github.com/music-tko/myPortfolio#readme",
+  "description": ""
 }
